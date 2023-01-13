@@ -32,4 +32,25 @@ p {
     color: var(--blanco);
 }
 
-a
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0% auto;
+}
+
+h1, h2 ,h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuenteprincipal);
+}
+
+h1 {font-size: 4rem;}
+h2 {font-size: 3.2rem;}
+h3 {font-size: 2.4rem;}
